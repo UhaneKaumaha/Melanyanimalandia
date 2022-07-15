@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "bison";
+    src: url('../assets/fonts/Bison-Bold\(PersonalUse\).ttf');
+}
+
+@font-face {
+    font-family: "geon";
+    src: url('../assets/fonts/Geon.ttf');
+}
+
+@import url(home.css);
+@import url(contact.css);
+
+
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2d4b452;
+    font-family: "geon";
+}
+
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+.active {
+    border-bottom: rgba(0, 0, 0, 0.61) 1px solid;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+header {
+    width: 100%;
+    height: 4rem;
+    display: grid;
+}
+
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 60px;
+}
+
+
+nav .nav-logo-container {
+    margin-left: 34px;
+    margin-top: 10px;
+}
+
+
+nav .nav-logo-container img {
+    width: 180px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+nav .profile-link a {
+    color: black;
+    margin-inline: 28px;
+}
+
+.home-main {
+    display: grid;
+    grid-template-columns: 7fr 6.5fr 1fr;
+    height: auto;
+    font-family: "bison";
+}
+
+
+.product-text {
+    display: grid;
+    grid-column: 1;
+    justify-items: start;
+    margin-left: 100px;
+}
+
+.golden img {
+    margin-top: 5rem;
+    width: 33rem;
+    border-radius: 50%;
+}
+
+
+.home-main-text-lg {
+    font-size: 74px;
+    text-align: start;
+    color: #000000;
+}
+
+.prduct {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+}
+
+.golden {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+}
+
+
+.social {
+    display: grid;
+    grid-column: 3;
+    justify-items: center;
+    align-items: center;
+    height: 350px;
+    padding-left: 0px;
+
+    padding-top: 90px;
+
+    font-size: 22px;
+}
+
+
+
+.home-main-text-sm {
+
+    font-size: 18px;
+    font-weight: 700px;
+    text-align: start;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.home-main-button {
+    width: 130px;
+    height: 55px;
+    background-color: #000000;
+    text-align: center;
+    font-size: 18px;
+    line-height: 55px;
+    color: #ffffff;
+
+}
+
+.text-button {
+    margin-right: 15px;
+    font-family: 'geon';
+}
+
+.grid-video {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+}
+
+.home-article {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+
+.home-article-video {
+
+
+    display: grid;
+    justify-items: center;
+    margin: 30px;
+}
+
+.home-article-text-md {
+
+    font-size: 18px;
+    text-align: center;
+    color: #353535;
+}
+
+
+footer {
+    color: #171717;
+    width: 100%;
+    background-color: #171717;
+}
+
+footer .credit-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+}
+
+del {
+    font-size: 17px;
+    margin-right: 5px;
+}
